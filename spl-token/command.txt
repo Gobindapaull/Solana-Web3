@@ -46,3 +46,6 @@ Updating 5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB
 
 [**] spl-token supply 5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB
 12345
+
+[**] spl-token transfer 92kfRPfZXCS8GUco2pjqauRSrMEJzJ32TpPiGLCDo6GN 12345 --fund-recipient D5etya9cr3nozzjUKf68EB2LWzNY95bGXzWCnLFNXV9Q
+Transfer 12345 tokens
