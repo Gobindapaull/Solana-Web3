@@ -1,0 +1,48 @@
+[**] solana --version
+solana-cli 1.17.15 (src:cc0e9a0e; feat:1237720363, client:SolanaLabs)
+
+[**] solana config get
+
+[**] solana config set --url https://api.devnet.solana.com
+
+[**] solana config set --url https://api.mainnet-beta.solana.com
+
+[**] solana config set --keypair wallet/wallet.json
+
+[**] solana-keygen pubkey wallet/wallet.json
+36gDcjWX5L8R8BGCy2BM3rkNDWsUfm7sJGDG2FsxYiSJ
+
+[**] solana airdrop 1 36gDcjWX5L8R8BGCy2BM3rkNDWsUfm7sJGDG2FsxYiSJ --url devnet
+
+Requesting airdrop of 1 SOL
+
+Signature: 2YCZjSWVm69ssXGFYjygzbe5zGK7rWYSv3Zpqg6Jy5DVQET33HZq2suXibcG4Re8qBPRXnL85uERcaRA1XHS9jDJ
+
+1 SOL
+
+[**] solana balance 36gDcjWX5L8R8BGCy2BM3rkNDWsUfm7sJGDG2FsxYiSJ
+1 SOL
+
+[**] spl-token create-token
+
+Address:  5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB
+Decimals:  9
+
+[**] spl-token create-account 5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB
+
+2CumfouXLhekJ1e2bUAgPtWe8zBuruEn96n7drd2p96t
+
+[**] spl-token mint 5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB 123456789
+
+Minting 123456789 tokens
+  Token: 5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB
+  Recipient: 2CumfouXLhekJ1e2bUAgPtWe8zBuruEn96n7drd2p96t
+
+[**] spl-token authorize 5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB mint --disable
+
+Updating 5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB
+  Current mint: 36gDcjWX5L8R8BGCy2BM3rkNDWsUfm7sJGDG2FsxYiSJ
+  New mint: disabled
+
+[**] spl-token supply 5muixr8FxPotKsyTGTAwbeZbGp48fM9FTSxsTHyDX3DB
+12345
