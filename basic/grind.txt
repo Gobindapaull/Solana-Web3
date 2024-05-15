@@ -7,3 +7,5 @@ solana config set -ud
 
 solana airdrop 2
 
+solana address
+
