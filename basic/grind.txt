@@ -3,4 +3,4 @@ solana-keygen grind --starts-with gob:1
 
 solana config set --keypair gobGYeeCknHgHePMx89GEecs18ZUXtvy2zUQrmyjZN3.json
 
-
+solana config set -ud
