@@ -1,0 +1,12 @@
+solana-keygen grind --starts-with Vo:1
+VotTNL3mnZSbWFouGjWHkcsTh9iN7UoK7CqtHcEaBQS.json
+
+solana balance VotTNL3mnZSbWFouGjWHkcsTh9iN7UoK7CqtHcEaBQS
+
+
+Info:
+multisig wallet = controlled by multiple private keys
+squads.io
+
+Sat Jun  1 01:59:45 PM IST 2024
+1 SOL = $165
