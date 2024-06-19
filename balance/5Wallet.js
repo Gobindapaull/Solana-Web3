@@ -12,7 +12,8 @@ const walletBalance = async () => {
             const walletBal = await connection.getBalance(wallet.publicKey)
 
             console.log(`wallet ${index} : ${newWallet}`)
-            console.log(`wallet balance ${index} : ${parseInt(walletBal) / LAMPORTS_PER_SOL} SOL`)
+            console.log(`wallet ${index} balance  : ${parseInt(walletBal) / LAMPORTS_PER_SOL} SOL`)
+            console.log(`=========================================================================`)
         }
 
     } catch (error) {
@@ -20,5 +21,3 @@ const walletBalance = async () => {
     }
 }
 walletBalance()
-
-// "@solana/web3.js": "^1.93.0"
