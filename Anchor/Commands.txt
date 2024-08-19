@@ -1,0 +1,2 @@
+[ 1 ] cargo add anchor-spl
+[ 2 ] anchor build
