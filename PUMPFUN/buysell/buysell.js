@@ -76,3 +76,8 @@ async function sendPortalTransaction() {
 }
 
 sendPortalTransaction();
+
+
+
+// buy = https://solscan.io/tx/9SQFQusKitCd4dh7MGRK5BXTxfdQjtt8AoedJKfwGK54gwDeZtuoV27kDGA4WLA6P37fBHuchwu9wZivxgviQBw
+// sell = https://solscan.io/tx/2HN2zUxLQ8GuYoNHD6LjM2HLJgmb4GghLEYAUQnM5mwkKV7MMLNHr4RuLPse5KSYv5Aa8bjDHD7LhqiTmerP7zyb
