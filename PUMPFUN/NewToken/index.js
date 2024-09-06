@@ -14,6 +14,7 @@ ws.on('message', (data) => {
     Object.keys(mint).map(key => {
         if (key == "mint") {
             const newPumpFunTokenAddress = mint[key]
+            console.log(`New Pump Fun Token detected`)
             console.log(newPumpFunTokenAddress)
         }
     }
