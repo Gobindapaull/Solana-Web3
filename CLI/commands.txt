@@ -1,0 +1,3 @@
+solana-keygen new -o privatekey.json
+solana-keygen recover -o privatekey.json --force
+solana-keygen grind --starts-with God:1 = GoduzVPxY1dei27HgAQXpz5yedcXTcP6J3wHHuxTzrWN.json
