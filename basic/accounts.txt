@@ -1,0 +1,5 @@
+solana --version
+solana config set --url https://api.mainnet-beta.solana.com
+solana config get
+solana balance CcwxvBSbqtahqUdc5wU1xUMUxg1CtSdmpzePBXjmS2hP
+spl-token accounts --owner CcwxvBSbqtahqUdc5wU1xUMUxg1CtSdmpzePBXjmS2hP
