@@ -1,0 +1,27 @@
+cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
+avm install latest
+anchor --version
+
+solana-keygen new -o key.json
+solana balance
+solana airdrop 2
+export SOLANA_KEYPAIR=key.json
+2kccqyj6Eo1ufLUkBdNavdyv5K93d4o9oTAgwpbaGUzS
+solana config set --url https://api.devnet.solana.com
+solana config get
+solana cluster-version
+
+
+spl-token
+spl-token create-token
+Address:  BkAMDiVJQxWMx4uvkDkMgcVkQgJxUuFEbrGCa1zPM3AT
+program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+anchor init brokelearn
+npm i @project-serum/anchor
+ts-node tests/brokelearn.ts
+
+
+			concepts
+wallet = account
+program = account
