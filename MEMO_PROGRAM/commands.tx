@@ -1,0 +1,4 @@
+npm init -y
+npm i @solana/web3.js fs
+touch main.js
+node --no-deprecation main.js
