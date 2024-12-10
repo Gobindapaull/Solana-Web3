@@ -1,0 +1,23 @@
+solana --version
+
+solana --version
+/home/block107/.local/share/solana/install/active_release/bin/solana
+
+solana-keygen new
+solana balance
+solana address
+solana config set --url devnet
+Keypair Path: /home/block107/.config/solana/id.json
+
+The Token Program is used for creating and managing SPL tokens.
+Program ID: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+The System Program is a core program on Solana for creating accounts, transferring SOL, etc.
+Program ID: 11111111111111111111111111111111
+
+This program manages the creation of associated token accounts.
+Program ID: ATokenGPuLR6GrxZ7Pq2mVBYSP9uEjXGZZcP7H8SB6c
+
+The Memo Program is used to attach arbitrary text to transactions.
+Program ID: MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr
+
