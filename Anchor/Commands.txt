@@ -1,2 +1,11 @@
 [ 1 ] cargo add anchor-spl
 [ 2 ] anchor build
+
+* cargo --version
+* cargo init test_01
+* cd test_01
+* anchor build
+* solana-test-validator
+* solana config get
+* solana address
+* solana balance
