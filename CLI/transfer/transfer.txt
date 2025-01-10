@@ -1,0 +1,3 @@
+solana address
+solana balance
+solana transfer PAL1do8VYBBwJ5rVnjYLGCWiyUCxRcL1a9MqcTwxtRM 0.002 --allow-unfunded-recipient
