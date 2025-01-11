@@ -29,3 +29,6 @@
 [15] yarn
 
 - solana-keygen grind --starts-with PAL:1
+- solana address
+- solana balance
+- solana transfer HVqNUKUFegiNLEruz2Ec76tmuyLY63s8WmmTs632mk19 0.01
