@@ -27,3 +27,5 @@
 [14] npm -v
 
 [15] yarn
+
+- solana-keygen grind --starts-with PAL:1
