@@ -32,3 +32,8 @@
 - solana address
 - solana balance
 - solana transfer HVqNUKUFegiNLEruz2Ec76tmuyLY63s8WmmTs632mk19 0.01
+- solana config set --url https://api.mainnet-beta.solana.com
+- solana config get
+- solana account 2rEawiYnokG1r94tFVSztTxZDqWzDQGgLv26EBMEanqn
+- solana nonce 2rEawiYnokG1r94tFVSztTxZDqWzDQGgLv26EBMEanqn = BJAtWRS2fKWWmtKt1DwMgbLtaei6zBxfkRSuBMYZuGS4
+- solana confirm 2cK6YMJ946FrAKPyYTynAsyGmpLdPF4p5eLTHbRgWw8S3WwkYEnd6GH4SW4wUrAEbaS8aWZxb7F5uFS54NxFQdZU = Finalized
