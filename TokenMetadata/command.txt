@@ -1,0 +1,23 @@
+Token Metadata Extension
+
+getKeypairFromFile( )
+TokenMetadata( )
+pack( )
+getMintLen( )
+getMinimumBalanceForRentExemption( )
+
+
+npm i 
+	@solana/spl-token-metadata
+	@solana/spl-token
+
+
+publicKey.toBase58( )
+TOKEN_2022_PROGRAM_ID
+
+
+
+CLI 
+	solana config get
+	solana address
+	solana balance
