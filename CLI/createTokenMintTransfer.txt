@@ -41,3 +41,10 @@ spl-token mint mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U 10000000
 Transfer tokens =
 spl-token transfer mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U 10000000 GjePWx7FgaDZVz9U2bcyKmViXq5qnZtxMyXdBxf5tzzn --fund-recipient --allow-unfunded-recipient
 
+spl-token account-info mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U
+
+Disable new token mint =
+spl-token authorize mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U mint --disable
+	Current mint: bosDkmM2bX786oHyPdzTdi4ozc97q3gcnjZY14buebw
+  	New mint: disabled
+
