@@ -1,0 +1,43 @@
+https://solana.com/developers/guides/getstarted/how-to-create-a-token
+
+solana-keygen grind --starts-with bos:1
+bosDkmM2bX786oHyPdzTdi4ozc97q3gcnjZY14buebw.json
+
+solana config set --keypair bosDkmM2bX786oHyPdzTdi4ozc97q3gcnjZY14buebw.json
+
+solana config get
+solana address
+solana balance
+
+token mint account = 
+solana-keygen grind --starts-with mnt:1
+mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U.json
+
+spl-token create-token --program-id TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --enable-metadata mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U.json
+
+Address:  mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U
+Decimals:  9
+
+Logo GitHub = 
+https://github.com/codevm2023/SPL-LOGO/blob/main/Angell%20It%20Logo%20(1).jpg
+
+Metadata url =
+https://github.com/codevm2023/SPL-LOGO/blob/main/metadata.json
+
+spl-token initialize-metadata mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U 'AngellIt' 'ANGELLIT' https://github.com/codevm2023/SPL-LOGO/blob/main/metadata.json
+
+https://solscan.io/token/mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U#transactions
+
+Token account = 
+spl-token create-account mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U
+
+Mint tokens =
+spl-token mint mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U 10000000
+
+	Token: mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U
+  	Recipient: 5AL5bX6hjUNBuv1WLnigiXp64VsWaQzMB6EDdWc4c9zv
+
+
+Transfer tokens =
+spl-token transfer mntXWzB58sn15dJdEWwLSExZPsAUnPMgQpXDngTM29U 10000000 GjePWx7FgaDZVz9U2bcyKmViXq5qnZtxMyXdBxf5tzzn --fund-recipient --allow-unfunded-recipient
+
