@@ -1,0 +1,9 @@
+chmod +x sol_transfer_nonce.sh
+
+nohup ./sol_transfer_nonce.sh > output.log 2>&1 &
+
+To find the running process
+ps aux | grep sol_transfer_nonce.sh
+
+To see live logs
+tail -f solana_transfer.log
