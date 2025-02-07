@@ -1,0 +1,9 @@
+- curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+- rustc --version
+- sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
+- solana --version
+- solana-keygen grind --starts-with ok:2
+- solana-keygen new = keypair, address and seed phrase
+- solana config set --keypair key.json
+- solana config get
+- solana address
