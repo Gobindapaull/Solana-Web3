@@ -1,0 +1,9 @@
+
+- npm install -g @bundlr-network/client
+
+- bundlr fund 100000000 --currency solana -h https://devnet.bundlr.network --provider-url https://api.devnet.solana.com -w key.json
+- 4kUfpCmJazpjuroykaJR4NxvJwDQf3XiHgcKS2hJdLuwgbQ4pFLZ8MZNoYknvwaLMRuFDZjYvAQUEs2soxvYALve
+- Mainnet: https://node1.bundlr.network
+
+- bundlr upload metadata.json -h https://devnet.bundlr.network --provider-url https://api.devnet.solana.co -c solana -w key.json
+- https://arweave.net/YT8aoryPtBRzDX4i3v5Q1zaucDcG1mD8jCCGp3z4nCJ
