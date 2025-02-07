@@ -1,0 +1,5 @@
+https://github.com/rckprtr/pumpdotfun-sdk/tree/main
+
+npm init -y
+npm i pumpdotfun-sdk
+ts-node pumpfun.ts
