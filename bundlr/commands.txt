@@ -1,3 +1,4 @@
+** Upload to Arweave using Bundlr **
 
 - npm install -g @bundlr-network/client
 
