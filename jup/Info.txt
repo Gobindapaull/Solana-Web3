@@ -1,0 +1,5 @@
+- Jupiter API
+- Paid version and free version
+- Solana mainnet
+- Swap A > B and Swap B > C
+-  "@jup-ag/core": "^4.0.0-beta.21"
