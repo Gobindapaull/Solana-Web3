@@ -5,7 +5,7 @@
 
 - sender.publicKey.toBase58()
 
-Simulation logs: Program 11111111111111111111111111111111 invoke [1],Program 11111111111111111111111111111111 success
+- Simulation logs: Program 11111111111111111111111111111111 invoke [1],Program 11111111111111111111111111111111 success
 ✅ Simulation succeeded
 
 
