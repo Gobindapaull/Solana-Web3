@@ -1,4 +1,4 @@
-[1] Install rust
+![image](https://github.com/user-attachments/assets/662c0a67-0f6c-42f0-804b-940a6c159044)[1] Install rust
 
 [2] rustc --version
 
@@ -37,3 +37,4 @@
 - solana account 2rEawiYnokG1r94tFVSztTxZDqWzDQGgLv26EBMEanqn
 - solana nonce 2rEawiYnokG1r94tFVSztTxZDqWzDQGgLv26EBMEanqn = BJAtWRS2fKWWmtKt1DwMgbLtaei6zBxfkRSuBMYZuGS4
 - solana confirm 2cK6YMJ946FrAKPyYTynAsyGmpLdPF4p5eLTHbRgWw8S3WwkYEnd6GH4SW4wUrAEbaS8aWZxb7F5uFS54NxFQdZU = Finalized
+- solana transfer CcwxvBSbqtahqUdc5wU1xUMUxg1CtSdmpzePBXjmS2hP 8 --allow-unfunded-recipient --fee-payer payer.json
