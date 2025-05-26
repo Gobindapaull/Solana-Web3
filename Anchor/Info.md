@@ -1,0 +1,13 @@
+- solana --version
+- sh -c "$(curl -sSfL https://release.anza.xyz/v2.1.0/install)" // 
+- avm install 0.31.0 // Update anchor-cli
+- https://www.anchor-lang.com/docs/updates/release-notes/0-31-0
+- anchor --version
+- ldd --version // ldd (Ubuntu GLIBC 2.35-0ubuntu3.9) 2.35
+- which anchor // /home/block107/.cargo/bin/anchor
+- anchor init anchor31
+- solana-keygen grind --starts-with P:1
+- cp PfaDLQGYfWtwtka4qzJKKr1qGqh93e8vWKxGTTf5jZR.json ../target/deploy/anchor31-keypair.json
+- solana config set -k keys/PfaDLQGYfWtwtka4qzJKKr1qGqh93e8vWKxGTTf5jZR.json
+- solana airdrop 2
+- solana balance
