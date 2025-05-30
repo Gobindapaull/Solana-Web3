@@ -1,0 +1,6 @@
+- solana-keygen grind --starts-with pp:1 // ppP8wKUCMSocsdfURjCHwHoH4J3nPBrtuAPqRduTGqJ.json
+- solana config set -k ppP8wKUCMSocsdfURjCHwHoH4J3nPBrtuAPqRduTGqJ.json
+- solana config get
+- solana balance
+- solana address
+- solana airdrop 2
