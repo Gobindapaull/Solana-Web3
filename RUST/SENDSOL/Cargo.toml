@@ -1,0 +1,8 @@
+[package]
+name = "simtx"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+solana-sdk = "2.2.0"
+solana-client = "2.2.7"
