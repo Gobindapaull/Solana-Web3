@@ -47,3 +47,4 @@ async function main() {
 main()
 
 // new one
+// bs58.default.decode(privateKey)
