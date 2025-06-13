@@ -11,7 +11,7 @@ async function main() {
 
     const to = new solanaWeb3.PublicKey(toAddress)
 
-    const walletKeyPair = solanaWeb3.Keypair.fromSecretKey(new Uint8Array(bs58.decode(privateKey)))
+    const walletKeyPair = solanaWeb3.Keypair.fromSecretKey(new Uint8Array(bs58.default.decode(privateKey)))
     const balance = await connection.getBalance(walletKeyPair.publicKey)
     console.log(`Wallet Balance : ${balance / solanaWeb3.LAMPORTS_PER_SOL} SOL`)
 
