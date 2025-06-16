@@ -38,3 +38,9 @@
 - solana nonce 2rEawiYnokG1r94tFVSztTxZDqWzDQGgLv26EBMEanqn = BJAtWRS2fKWWmtKt1DwMgbLtaei6zBxfkRSuBMYZuGS4
 - solana confirm 2cK6YMJ946FrAKPyYTynAsyGmpLdPF4p5eLTHbRgWw8S3WwkYEnd6GH4SW4wUrAEbaS8aWZxb7F5uFS54NxFQdZU = Finalized
 - solana transfer CcwxvBSbqtahqUdc5wU1xUMUxg1CtSdmpzePBXjmS2hP 8 --allow-unfunded-recipient --fee-payer payer.json
+
+- solana address -k target/deploy/my_cpi-keypair.json
+= 3cSDkhgajeNvK43YCqp5sq78DNCVbf394HGBt3LaGWu4
+
+- anchor build
+- anchor deploy
