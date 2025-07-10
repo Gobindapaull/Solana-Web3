@@ -1,0 +1,9 @@
+- nvm -v
+- rustup --version
+- solana --version
+- anchor --version
+- solana config get
+- solana-keygen new -o payer.json
+- solana address
+- solana config set -u devnet
+- solana airdrop 2 
