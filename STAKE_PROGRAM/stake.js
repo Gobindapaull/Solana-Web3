@@ -1,0 +1,2 @@
+const { STAKE_PROGRAM_ADDRESS } = require("@solana-program/stake");
+console.log(STAKE_PROGRAM_ADDRESS); // Stake11111111111111111111111111111111111111
