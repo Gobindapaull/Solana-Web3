@@ -1,9 +1,10 @@
 const { Connection, PublicKey, clusterApiUrl } = require("@solana/web3.js");
+require("dotenv").config();
 
 const main = async () => {
     const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
 
-    const mintAddress = '63bpnCja1pGB2HSazkS8FAPAUkYgcXoDwYHfvZZveBot'; // MasterBOT
+    const mintAddress = process.env.MINT_ADDRESS; // MasterBOT
     const mintPubkey = new PublicKey(mintAddress);
 
     const info = await connection.getParsedAccountInfo(mintPubkey);
