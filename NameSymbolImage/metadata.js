@@ -2,8 +2,9 @@ const { createUmi } = require("@metaplex-foundation/umi-bundle-defaults");
 const { mplToolbox } = require("@metaplex-foundation/mpl-toolbox");
 const { mplTokenMetadata, findMetadataPda, fetchMetadata } = require("@metaplex-foundation/mpl-token-metadata");
 const { publicKey } = require("@metaplex-foundation/umi-public-keys");
+require("dotenv").config();
 
-const mintAddress = "63bpnCja1pGB2HSazkS8FAPAUkYgcXoDwYHfvZZveBot"; // MasterBOT
+const mintAddress = process.env.MINT_ADDRESS;
 
 const NameSymbolImage = async () => {
   // 👇 Add mplToolbox before mplTokenMetadata
