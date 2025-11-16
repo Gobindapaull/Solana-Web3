@@ -1,6 +1,6 @@
 - thawAccount > reverses a freeze, restoring full functionality to a previously frozen token account.
 - After thawing, the account can once again send and receive tokens normally
-- 
+
 - feePayer: CyzqW8wLyMZ4tUa32HNs4iWoRMqRPrX7pV8eU79B2dCi
 - Mint address: Aksj4bSMzjBADpRDXf9bCxNEizaHytZFhWT3dqgpFPrq
 
