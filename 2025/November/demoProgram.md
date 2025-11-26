@@ -1,0 +1,8 @@
+- anchor init demoprogram
+- solana-keygen grind --starts-with Demo:1
+- cp Demo4QfugwgGHanypmtAA3o2fXxGUvwuk6medyKzdnDQ.json demoprogram/target/deploy/demoprogram-keypair.json
+- solana-keygen grind --starts-with Auth:1
+- solana config set -ud -k AuthLZ6NogmLnQ7SFG4KvuofcqJqNEjjy5zheeR1mtYE.json
+- solana address
+- https://faucet.solana.com/
+- solana balance
