@@ -8,18 +8,22 @@ const connection = new Connection(RPC_URL, "confirmed")
 const publicKey = new PublicKey(WALLET_ADDRESS)
 
 async function main() {
-    // Generate a solana wallet
-    const keypair = await Keypair.generate()
-    console.log(`Public key: ${keypair.publicKey.toBase58()}`)
-    console.log(`Private key: ${Buffer.from(keypair.secretKey).toString("hex")}`)
+    try {
+        // Generate a solana wallet
+        const keypair = await Keypair.generate()
+        console.log(`Public key: ${keypair.publicKey.toBase58()}`)
+        console.log(`Private key: ${Buffer.from(keypair.secretKey).toString("hex")}`)
 
-    // Check balance
-    const balanceLamports = await connection.getBalance(publicKey)
-    const balanceSOL = Number(balanceLamports) / LAMPORTS_PER_SOL
+        // Check balance
+        const balanceLamports = await connection.getBalance(publicKey)
+        const balanceSOL = Number(balanceLamports) / LAMPORTS_PER_SOL
 
-    console.log(`Network: ${RPC_URL}`)
-    console.log(`Wallet address: ${publicKey}`)
-    console.log(`Balance (SOL) : ${balanceSOL}`)
+        console.log(`Network: ${RPC_URL}`)
+        console.log(`Wallet address: ${publicKey}`)
+        console.log(`Balance (SOL) : ${balanceSOL}`)
+    } catch (error) {
+        console.error(`Error: ${error}`)
+    }
 }
 
 main()
